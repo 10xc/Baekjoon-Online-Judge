@@ -1,0 +1,18 @@
+import java.util.Scanner;
+public class p10950 {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		int n=sc.nextInt();
+		
+		for(int i=1;i<n+1;i++) {
+			
+			int n1=sc.nextInt();
+			int n2=sc.nextInt();
+			System.out.println(n1+n2);
+			
+		}
+
+	}
+
+}
